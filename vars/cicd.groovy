@@ -1,5 +1,5 @@
 
 def gitdownload(repo)
 {
-  "https://github.com/intelliqittrainings/${repo}.git"
+   echo "https://github.com/intelliqittrainings/${repo}.git"
 }
