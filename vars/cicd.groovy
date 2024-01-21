@@ -6,5 +6,5 @@ def git(repo)
 
 def maven()
 {
-   sh "mvn package"
+   sh 'mvn package'
 }
