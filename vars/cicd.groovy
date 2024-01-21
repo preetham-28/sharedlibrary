@@ -4,7 +4,7 @@ def git(repo)
    echo "https://github.com/intelliqittrainings/${repo}.git"
 }
 
-def maven()
+def mavenbuild()
 {
    echo sh "mvn package"
 }
