@@ -12,3 +12,9 @@ def tomcatdeploy(ip,contextpath)
 {
      "deploy adapters: [tomcat9(credentialsId: '6568a0c6-613f-4317-84fb-685ed86709da', path: '', url: '${ip}')], contextPath: '${contextpath}', war: '**/*.war"
 }
+
+def selenium(jobname)
+{
+     sh "java -jar /var/lib/jenkins/workspace/${jobname}/testing.jar"
+}
+
